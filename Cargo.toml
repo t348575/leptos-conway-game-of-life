@@ -1,0 +1,13 @@
+[package]
+name = "leptos-conway-game-of-life"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+gloo-timers = { version = "0.2.6" }
+js-sys = "0.3.61"
+leptos = "0.2.5"
+web-sys = { version = "0.3.61", features = ["console", "Element"] }
